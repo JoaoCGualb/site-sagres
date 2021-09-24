@@ -1,0 +1,36 @@
+.principal__imagem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-image: url('../../images/facebook-logo.png');
+    background-position: center top;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal__titulo {
+    font-size: 4em;
+    line-height: 1.25em;
+    text-align: center;
+    font-weight: bold;
+    color: var(--branco)
+}
+
+.principal__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9em;
+    border: 1px solid var(--branco);
+    padding: 0.5em;
+    width: max-content;
+}
+
+.principal__texto {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--branco)
+}

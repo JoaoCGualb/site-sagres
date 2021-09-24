@@ -1,0 +1,36 @@
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--preto);
+    padding: 1em 0;
+}
+
+.historia__container {
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.historia__container_imagem {
+    width: 100%;
+    height: 20em;
+    background-color: aqua;
+}
+
+.historia__container_texto {
+    text-align: center;
+}
+
+.historia__container_titulo {
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+@media (max-width: 760px) {
+    .historia__container {
+        margin-bottom: 2em;
+    }
+}

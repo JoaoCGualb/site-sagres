@@ -1,0 +1,16 @@
+.sobre_nos__container {
+    display: flex;
+    align-items: center;
+}
+
+.sobre_nos__container_titulo {
+    padding: 2em;
+    font-size: 3em;
+}
+
+@media (max-width: 760px) {
+    .sobre_nos__container {
+        flex-direction: column;
+        margin-bottom: 3em;
+    }
+}
