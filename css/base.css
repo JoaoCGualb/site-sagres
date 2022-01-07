@@ -39,7 +39,7 @@ header {
 .divisor {
     width: 50%;
     height: 3px;
-    background-color: var(--vermelho);
+    background-color: var(--branco);
 }
 
 .divisor_vertical {

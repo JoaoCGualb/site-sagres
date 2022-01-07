@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+<head>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/cabecario.css" rel="stylesheet">
+    <link href="css/rodape.css" rel="stylesheet">
+    <link href="css/loja/menu_pesquisa.css" rel="stylesheet">
+    <link href="css/loja/base_loja.css" rel="stylesheet">
+    <link href="css/loja/lista_produtos.css" rel="stylesheet">
+    <link href="css/loja/lista_pedido.css" rel="stylesheet">
+    <link href="css/loja/carrinho.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecario container">
+        <img class="logo" width="100px" alt="Logo da Casa Sagres" src="./images/logo_limpo.png" />
+        <nav class="cabecario__nav">
+            <ul>
+                <li class="cabecario__nav__link"><a id="abrir_carrinho" href="#">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="painel_vendas">
+            <section class="menu_pesquisa">
+                <form class="menu_pesquisa__form" action="">
+                    <input class="menu_pesquisa__form__input_pesquisa" id="input_pesquisa" type="text" placeholder="Pesquisa...">
+                    <label>Preços:</label>
+                    <div class="menu_pesquisa__form__radio">
+                        <input type="radio" id="input_value1" name="fav_language" value="1">
+                        <label for="input_value1">até R$ 60,99</label>
+                    </div>
+                    <div class="menu_pesquisa__form__radio">
+                        <input type="radio" id="input_value2" name="fav_language" value="2">
+                        <label for="input_value2">de R$ 61,00 a R$ 100,00</label>
+                    </div>
+                    <div class="menu_pesquisa__form__radio">
+                        <input type="radio" id="input_value3" name="fav_language" value="3">
+                        <label for="input_value3">acima de R$ 100,00</label>
+                    </div>
+                </form>
+            </section>
+            <section class="lista_produtos">
+                <div>
+                    <h3 class="lista_produtos__titulo">Produtos de Destaque</h3>
+                    <ol class="lista_produtos__lista">
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+                        <li class="lista_produtos__item">
+                            <img class="item_imagem" src="images/index/loja.jpeg">
+                            <p class="item_nome">Produto 1</p>
+                            <p class="item_descricao">Descrição 1</p>
+                            <p class="item_preco">Preço</p>
+                            <button id="btn_adicionar_item" class="btn_adicionar_item">Adicionar</button>
+                        </li>
+
+                    </ol>
+                </div>
+            </section>
+        </div>
+        <section id="carrinho" class="carrinho">
+            <div class="carrinho__conteudo">
+                <div class="carrinho__header">
+                    <h2 class="carrinho__titulo">Carrinho</h2>
+                    <span class="carrinho__btn_fechar" href="" id="fechar_carrinho" />
+                </div>
+                <ol class="lista_pedido">
+                    <li class="lista_pedido__item">
+                        <div class="lista_pedido__item__dados">
+                            <p class="item__nome">Nome Item</p>
+                            <p class="item__quantidade">1 Und</p>
+                            <p class="item__subtotal">R$ 60,00</p>
+                        </div>
+                        <button class="lista_pedido__item__btn">  Remover</button>
+                    </li>
+                    <li class="lista_pedido__item">
+                        <div class="lista_pedido__item__dados">
+                            <p class="item__nome">Nome Item</p>
+                            <p class="item__quantidade">1 Und</p>
+                            <p class="item__subtotal">R$ 60,00</p>
+                        </div>
+                        <button class="lista_pedido__item__btn">  Remover</button>
+                    </li>
+                    <li class="lista_pedido__item">
+                        <div class="lista_pedido__item__dados">
+                            <p class="item__nome">Nome Item</p>
+                            <p class="item__quantidade">1 Und</p>
+                            <p class="item__subtotal">R$ 60,00</p>
+                        </div>
+                        <button class="lista_pedido__item__btn">  Remover</button>
+                    </li>
+                    <li class="lista_pedido__item">
+                        <div class="lista_pedido__item__dados">
+                            <p class="item__nome">Nome Item</p>
+                            <p class="item__quantidade">1 Und</p>
+                            <p class="item__subtotal">R$ 60,00</p>
+                        </div>
+                        <button class="lista_pedido__item__btn">  Remover</button>
+                    </li>
+                </ol>
+                <div class="carrinho__resumo">
+                    <p>Valor Total: </p>
+                    <p class="carrinho__resumo__total">R$ 240,00</p>
+                    <button class="carrinho__resumo__btn">Enviar pedido</button>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="rodape">
+            <div class="rodape__container">
+                <div class="rodape__container_informacao">
+                    <img class="logo" width="100px" alt="Logo da Casa Sagres" src="./images/logo_limpo.png" />
+                    <div class="divisor_vertical"></div>
+                    <div class="rodape__container_endereco">
+                        <p>Rua Campo Largo, 370</p>
+                        <p>Vila Bertioga, São Paulo - SP</p>
+                    </div>
+                    <div class="divisor_vertical"></div>
+                    <div class="rodape__container_contatos">
+                        <p>(11) 2965-3290</p>
+                        <p>email</p>
+                    </div>
+                </div>
+                <div class="rodape__container_redes">
+                    <a href="https://www.facebook.com/CasaSagresMoocaSP/" class="rodape__container_redes_item">
+                        <img alt="Facebook" width="50px" src="images/facebook-logo.png" />
+                    </a>
+                    <a href="https://www.instagram.com/casasagresoficial/?hl=pt-br" class="rodape__container_redes_item">
+                        <img alt="Instagram" width="50px" src="images/instagram-logo.png" />
+                    </a>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </main>
+    <script src="js/loja.js"></script>
+</body>
+
+</html>

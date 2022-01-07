@@ -1,0 +1,36 @@
+.menu_pesquisa {
+    display: flex;
+    border: 1px solid var(--preto);
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    width: 90rem;
+    height: 100%;
+    padding: 15px;
+}
+
+.menu_pesquisa__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_pesquisa__form__input_pesquisa {
+    align-self: center;
+    margin: 15px 15px 35px 15px;
+    height: 25px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.menu_pesquisa__form__radio {
+    margin: 0.125em;
+    vertical-align: center;
+    font-size: 1em;
+}
+
+@media (max-width: 760px) {
+    .menu_pesquisa__form__radio {
+        margin: 0.1em;
+        font-size: 0.6em;
+    }
+}

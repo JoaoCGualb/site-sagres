@@ -1,0 +1,80 @@
+.carrinho {
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    background-color: var(--branco);
+    height: 100vh;
+    width: 40%;
+}
+
+.carrinho__conteudo {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carrinho__header {
+    margin: 20px;
+    display: flex;
+}
+
+.carrinho__titulo {
+    margin: 20px auto;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.carrinho__btn_fechar {
+    width: 30px;
+    height: 30px;
+    align-self: flex-start;
+    background-image: url("../../images/loja/btn_sair.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carrinho__btn_fechar:hover {
+    cursor: pointer;
+}
+
+.carrinho__resumo {
+    font-size: 24px;
+    align-self: center;
+    width: 450px;
+    position: fixed;
+    bottom: 0;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--cinza);
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrinho__resumo__total {
+    font-weight: bold;
+    color: var(--verde);
+    padding-right: 10px
+}
+
+.carrinho__resumo__btn {
+    border: 0px;
+    padding: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 24px;
+    color: var(--branco);
+    background-color: var(--verde);
+}
+
+@media (max-width: 760px) {
+    .carrinho {
+        width: 50%;
+    }
+    .carrinho__resumo {
+        width: 300px;
+    }
+}
