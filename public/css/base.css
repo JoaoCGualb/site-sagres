@@ -1,0 +1,69 @@
+:root {
+    --branco: #FAFAFA;
+    --cinza: #C4C4C4;
+    --preto: #444444;
+    --preto_hover: #000000;
+    --vermelho: #9F2C2F;
+    --verde: #0E5E0A;
+}
+
+html {
+    font-family: -apple-system, Roboto, sans-serif;
+    color: var(--preto);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+}
+
+.container {
+    padding: 0 3%;
+}
+
+.conteudo {
+    margin: 0 10%;
+}
+
+.container__principal {
+    padding: 3% 8%;
+}
+
+.divisor_container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.divisor {
+    width: 50%;
+    height: 3px;
+    background-color: var(--branco);
+}
+
+.divisor_vertical {
+    height: 75px;
+    width: 3px;
+    background-color: var(--vermelho);
+}
+
+
+.whatsapp__button{
+    position:fixed;
+    bottom:20px;
+    right:30px;
+}
+
+.whatsapp__button svg{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 375px) {
+    .whatsapp__button svg{
+        width: 40px;
+        height: 40px;
+    }
+    
+}

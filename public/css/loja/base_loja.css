@@ -1,0 +1,5 @@
+.painel_vendas {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,66 @@
+.rodape__container {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.25em;
+}
+
+.rodape__container_informacao {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.rodape__container_endereco {
+    padding: 0 1em;
+}
+
+.rodape__container_contatos {
+    padding: 0 1em;
+}
+
+.rodape__container_redes {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    margin-right: 5em;
+}
+
+.rodape__container_redes_item {
+    padding: 1em;
+}
+
+.rodape__logo{
+    margin: 1em;
+    width: 7em;
+}
+
+@media (max-width: 768px) {
+    .rodape__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape__container_informacao {
+        justify-content: center;
+        align-items: center;
+    }
+    .rodape__container_redes{
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .rodape__container {
+        font-size: small;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape__container_informacao {
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7em;
+    }
+    .rodape__container_redes{
+        margin: 0;
+    }
+}
